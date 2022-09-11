@@ -1,0 +1,35 @@
+.nopage h1 {
+    background: linear-gradient(95.37deg, #A58C3B -17.53%, #FCE69E 23.78%, #A58C3B 73.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    /* font-family: 'Kumbh Sans'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 300px;
+    line-height: 372px;
+    /* identical to box height */
+    text-align: center;
+}
+
+.nopage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.link{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px; */
+    cursor: pointer;
+    margin: 20px 0px;
+    font-size: 22px;
+    text-transform: capitalize;
+
+}

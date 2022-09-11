@@ -1,0 +1,32 @@
+[
+    {
+        "index": "1",
+        "image": "/projects/project1.png",
+        "alt": "project"
+    },
+    {
+        "index": "2",
+        "image": "/projects/project2.png",
+        "alt": "project"
+    },
+    {
+        "index": "3",
+        "image": "/projects/project3.png",
+        "alt": "project"
+    },
+    {
+        "index": "4",
+        "image": "/projects/project4.png",
+        "alt": "project"
+    },
+    {
+        "index": "5",
+        "image": "/projects/project5.png",
+        "alt": "project"
+    },
+    {
+        "index": "6",
+        "image": "/projects/project6.png",
+        "alt": "project"
+    }
+]

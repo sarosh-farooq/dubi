@@ -1,0 +1,65 @@
+.ServicesButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* margin-left: 20px; */
+}
+
+
+.p {
+    color: var(--lightGrey);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.listDetail span {
+    font-family: Kumbh Sans;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.list .p {
+    color: var(--lightGrey);
+}
+
+.list .icon {
+    font-size: 10px;
+}
+
+
+
+.container {
+    background-image: url('/home/backgroundCircle1.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 470px auto;
+    min-height: 77vh;
+}
+
+
+.container h1 {
+    font-family: Kumbh Sans;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 99px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

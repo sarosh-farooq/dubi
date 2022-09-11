@@ -1,0 +1,37 @@
+[
+    {
+        "index": "1",
+        "image": "/home/focus.png",
+        "alt": "focus",
+        "title": "Digital Marketing",
+        "description": "Our digital marketing methods are advanced and always expect the intent of your customers and search engines."
+    },
+    {
+        "index": "2",
+        "image": "/home/creative.png",
+        "alt": "creative",
+        "title": "Creative Design",
+        "description": "We offer a range of creative design services that includes logo design, brand identity, packaging, as well as printing and publishing."
+    },
+    {
+        "index": "3",
+        "image": "/home/deploy.png",
+        "alt": "Deployment",
+        "title": "Deployment",
+        "description": "We offer our clients the best deployment services which include web hosting, content writing, and marketing research."
+    },
+    {
+        "index": "4",
+        "image": "/home/web.png",
+        "alt": "web",
+        "title": "Web Design",
+        "description": "Dubisign Electronic Services develops and designs your website using the latest trends. Your new site will be stunning and easy to use."
+    },
+    {
+        "index": "1",
+        "image": "/home/mobile.png",
+        "alt": "mobile",
+        "title": "App Development",
+        "description": "Our digital marketing methods are advanced and always expect the intent of your customers and search engines."
+    }
+]

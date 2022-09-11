@@ -1,0 +1,43 @@
+.contactBox {
+    border: 2px solid var(--primary);
+    width: fit-content;
+    padding: 0px 25px;
+    margin-top: 25px;
+}
+
+.contactForm p {
+    color: var(--lightGrey);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.secondItem1 {
+    margin-top: 70px;
+}
+
+.secondItem2 {
+    margin-top: 43px;
+}
+
+.contactBox h1 {
+    font-family: Kumbh Sans;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contactBox h2 {
+    font-family: Kumbh Sans;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+}

@@ -1,0 +1,93 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: inter !important;
+}
+
+:root {
+  --primary: #A58C3B;
+  --lightGrey: #7C7B7B;
+ 
+}
+
+html, body {
+  height: 100%;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.fp-watermark {
+  position: none !important;
+  z-index: 0 !important;
+  display: none !important;
+  right: 0px !important;
+}
+
+
+.teamDetail {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+
+.image {
+  width: 247px !important;
+  height: 247px !important;
+  clip-path: circle(50% at 50% 50%) !important;
+  transition: .5s ease-in !important;
+}
+
+.name {
+  font-family: Kumbh Sans !important;
+  font-size: 25px !important;
+  font-weight: 400 !important;
+  line-height: 37px !important;
+  letter-spacing: 0em !important;
+  text-align: center !important;
+}
+
+.title {
+  font-family: Inter !important;
+  font-size: 20px !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0em !important;
+  text-align: center !important;
+}
+
+
+
+
+.slick-center .image {
+  width: 374px !important;
+  height: 374px !important;
+  clip-path: circle(50% at 50% 50%) !important;
+}
+

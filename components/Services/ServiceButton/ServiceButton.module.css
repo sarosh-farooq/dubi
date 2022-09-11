@@ -1,0 +1,57 @@
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 20px;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    padding: 20px 30px;
+}
+
+.ServiceButton h2 {
+    font-family: Kumbh Sans;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 20px;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--primary);
+    color: white;
+}
+
+
+.ServiceButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ServiceButton h2 {
+    position: relative;
+    top: -4px;
+
+}

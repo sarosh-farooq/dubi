@@ -1,0 +1,41 @@
+
+.flexCenter {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    padding: 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linkSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.link {
+    font-size: 35px !important;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.subtitle {
+    color: rgba(124, 123, 123, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #7C7B7B;
+}

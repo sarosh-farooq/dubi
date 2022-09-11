@@ -1,0 +1,60 @@
+.blogView {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 18px;
+    padding: 10px 0px 20px 0px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.blogView h2 {
+    font-family: Mulish;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 20px;
+    letter-spacing: 0.4126984179019928px;
+    text-align: left;
+    color: var(--primary);
+
+}
+
+.blogView p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.image {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 19px;
+    color: var(--lightGrey) !important;
+}
+
+
+.button {
+    align-self: flex-end;
+}

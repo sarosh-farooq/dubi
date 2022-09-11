@@ -1,0 +1,423 @@
+.project {
+    width: 100%;
+    /* box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%); */
+    /* border-radius: 7px; */
+    border: none;
+
+    margin-top: 16px;
+}
+
+.project h5 {
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.project h6 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.intro {
+    /* border: 2px solid black; */
+    /* padding: 25px; */
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-size: 1200px auto;
+
+}
+
+
+.introDetail {
+    width: 900px;
+    padding: 150px 40px 150px 70px;
+}
+
+.bars {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.subBars {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    width: 90%;
+}
+
+.bar1 {
+    width: 90%;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.bar2 {
+    background-color: white;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.bar3 {
+    background-color: white;
+    width: 48%;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+
+
+.fields {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.description {
+    margin: 50px 0px;
+    padding: 0px 80px;
+}
+
+.description .image {
+    float: right;
+    padding: 15px;
+}
+
+.p {
+    color: var(--lightGrey);
+    font-size: 20px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.h2 {
+    background: linear-gradient(95.37deg, #A58C3B -17.53%, #FCE69E 23.78%, #A58C3B 73.25%);
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Kumbh Sans;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    /* margin-bottom: 30px; */
+}
+
+
+.overview {
+    margin: 50px 0px;
+    padding: 0px 80px;
+}
+
+
+.problems {
+    margin: 70px 0px;
+}
+
+.problems .p span {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.problems .icon {
+    font-size: 12px;
+}
+
+.approach {
+    margin: 50px 0px;
+    padding: 0px 80px;
+}
+
+
+.approach .image {
+    float: left;
+    padding: 15px 20px 0px 0px;
+}
+
+.approach .image2 {
+    /* float: left; */
+    padding: 15px 0px;
+}
+
+
+.result {
+    margin: 50px 0px;
+    padding: 0px 80px;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.result1 {
+    width: 60%;
+    background-color: var(--primary);
+    align-self: flex-start;
+    padding: 15px 0px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lexend;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.result2 {
+    width: 60%;
+    background-color: var(--primary);
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    border-radius: 7px;
+    font-family: Lexend;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.result3 {
+    border-radius: 7px;
+    padding: 15px 0px;
+    width: 60%;
+    background-color: var(--primary);
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lexend;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+
+.graphs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.companyDetail {
+    margin: 50px 0px;
+    padding: 70px 80px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}
+
+.companyDetail .box {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.companyDetail h3 {
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 169px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.companyDetail h4 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.companyDetail h5 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.3em;
+    text-align: right;
+
+}
+
+.timeline {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.timelineBox {
+    width: 80%;
+}
+
+.timeline .months {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.timeline .line {
+    width: 100%;
+    border: 1px solid var(--primary);
+    margin: 10px 0px;
+}
+
+.timeline .weekDays {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timeline .content {
+    font-family: Lexend;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.graph {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.graphBox {
+    width: 80%;
+}
+
+.graphArea {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    font-family: Lexend;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.graph .bar1 {
+    background-color: #30B5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 0px;
+    width: 40%;
+    border: 1px solid transparent;
+
+}
+
+.graph .bar2 {
+    background-color: #00B372;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 0px;
+    width: 50%;
+    left: 10%;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.graph .bar3 {
+    background-color: #B34B00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 0px;
+    width: 40%;
+    left: 20%;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.graph .bar4 {
+    background-color: #5900B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 4px;
+    width: 60%;
+    left: 20%;
+    position: relative;
+    border: 1px solid transparent;
+}

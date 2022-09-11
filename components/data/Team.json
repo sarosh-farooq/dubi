@@ -1,0 +1,26 @@
+[
+    {
+        "index": "2",
+        "image": "/about/james.png",
+        "name": "James Anderson",
+        "title": "- CEO, Dubisign"
+    },
+    {
+        "index": "3",
+        "image": "/about/micheal.png",
+        "name": "Micheal Clarke",
+        "title": "- Marketing Manager"
+    },
+    {
+        "index": "1",
+        "image": "/about/hammad.png",
+        "name": "Hammad",
+        "title": "- Chief Operating Officer"
+    },
+    {
+        "index": "4",
+        "image": "/about/hammad.png",
+        "name": "Hammad",
+        "title": "- Chief Operating Officer"
+    }
+]
