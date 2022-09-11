@@ -16,7 +16,7 @@ const About = () => {
 
 
     return (
-        <div>
+        <div className='content'>
             <Head>
                 <title>About - DubiSign</title>
                 <meta name="description" content="DubiSign - About " />

@@ -10,7 +10,7 @@ const Contact = () => {
 
   const [tabIndex, setTabIndex] = React.useState(0)
   return (
-    <div>
+    <div className='content'>
       <Head>
         <title>Contact Support Team - DubiSign</title>
         <meta name="description" content="DubiSign - Contact Support Team " />

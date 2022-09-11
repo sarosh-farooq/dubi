@@ -110,9 +110,9 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider theme={activeTheme} >
       <CssBaseline />
       <Header />
-      <div className='content'>
-        <Component setSelectedTheme={setSelectedTheme} {...pageProps} />
-      </div>
+
+      <Component setSelectedTheme={setSelectedTheme} {...pageProps} />
+
       <div className='footer'>
         <Footer setSelectedTheme={setSelectedTheme} />
       </div>

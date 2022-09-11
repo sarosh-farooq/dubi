@@ -8,7 +8,7 @@ function Services() {
 
 
     return (
-        <div>
+        <div className='content'>
             <Head>
                 <title>DubiSign - Services</title>
                 <meta name="description" content="DubiSign Services" />

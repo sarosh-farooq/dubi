@@ -23,7 +23,7 @@ function Projects() {
     };
 
     return (
-        <div>
+        <div className='content'>
 
             <Container maxWidth="xl" sx={{ mt: 27, mb: 6 }} >
 
@@ -40,7 +40,7 @@ function Projects() {
                 <Box sx={{ width: '100%', display: "flex", alignItems: 'center', justifyContent: "center" }}>
                     <Tab />
                 </Box>
-                <Box  sx={{ width: '100%', display: "flex", alignItems: 'center', justifyContent: "center" }}>
+                <Box sx={{ width: '100%', display: "flex", alignItems: 'center', justifyContent: "center" }}>
                     <Grid className={styles.container} container spacing={8} sx={{ mt: 1, width: "80%" }}>
 
                         {

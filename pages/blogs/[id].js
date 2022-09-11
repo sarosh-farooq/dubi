@@ -11,7 +11,7 @@ import Head from 'next/head'
 
 const BlogDetail = () => {
     return (
-        <div>
+        <div className='content'>
             <Container maxWidth="xl" sx={{ mt: 27, mb: 6 }} className={styles.blog} >
 
                 <Head>
@@ -31,7 +31,7 @@ const BlogDetail = () => {
                         </Box>
                         <Typography variant="h3" component="h1" className={styles.h2}>Find out about the latest trends in design</Typography>
                         <Box className={styles.blogDetail}>
-                            <Box className={styles.info} sx={{mt:7, mb:4}}>
+                            <Box className={styles.info} sx={{ mt: 7, mb: 4 }}>
                                 <Typography variant="subtitle1" sx={{ fontSize: 20 }} component="p">December 29, 2021</Typography>
                                 <Typography variant="subtitle1" sx={{ fontSize: 20 }} component="p"><span>.</span> Admin</Typography>
                             </Box>
@@ -47,19 +47,19 @@ const BlogDetail = () => {
                                 </a>
                             </Box>
                         </Box>
-                        <Typography variant="subtitle1" component="p" sx={{width: "80%"}} >
+                        <Typography variant="subtitle1" component="p" sx={{ width: "80%" }} >
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac facilisi est, phasellus tincidunt amet tellus a tellus ut. Dignissim tincidunt dictum lectus risus, id interdum auctor dignissim nulla.
                         </Typography>
-                        <Typography variant="subtitle1" component="p" sx={{width: "80%"}} >
+                        <Typography variant="subtitle1" component="p" sx={{ width: "80%" }} >
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis, porttitor gravida urna, vitae diam fermentum sed purus pellentesque. Non sed nullam urna tincidunt suscipit. Nunc, fringilla ac ornare orci. Fringilla commodo cursus tristique phasellus risus feugiat leo purus diam.
                         </Typography>
-                        <Typography variant="subtitle1" component="p" sx={{width: "80%"}} >
+                        <Typography variant="subtitle1" component="p" sx={{ width: "80%" }} >
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac facilisi est, phasellus tincidunt amet tellus a tellus ut. Dignissim tincidunt dictum lectus risus, id interdum auctor dignissim nulla.
                         </Typography>
-                        <Typography variant="subtitle1" component="p" sx={{width: "80%"}} >
+                        <Typography variant="subtitle1" component="p" sx={{ width: "80%" }} >
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec auctor tincidunt elementum. Sed libero amet eget augue molestie dignissim platea facilisi ut. Neque quam nisl justo, tempor sit lorem. Bibendum justo turpis ultricies dignissim molestie magna dolor. Mi eget libero, aliquam enim. Pretium sit ipsum faucibus egestas blandit elit, risus. Egestas semper arcu volutpat massa ornare risus etiam mi erat.
                         </Typography>
-                        <Typography variant="subtitle1" component="p" sx={{width: "80%"}} >
+                        <Typography variant="subtitle1" component="p" sx={{ width: "80%" }} >
                             Consequat ipsum sed viverra at etiam mus sed egestas sed.
                             Tincidunt a vitae egestas neque, lectus. Vulputate bibendum nec, vestibulum proin gravida nibh praesent mauris diam. Posuere penatibus eget volutpat varius arcu. Ut felis fames egestas diam augue ut. Etiam id vitae sed mauris. Diam ut sit donec dui quam. Urna donec blandit viverra tortor sapien etiam eget. Habitant orci velit facilisi egestas. Scelerisque vulputate fermentum ultrices pulvinar non sed.
                         </Typography>

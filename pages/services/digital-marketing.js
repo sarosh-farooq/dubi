@@ -13,7 +13,7 @@ function ServicesDetail() {
 
 
     return (
-        <div>
+        <div className='content'>
             <Head>
                 <title>Digital Marketing - DubiSign</title>
                 <meta name="description" content="DubiSign - Digital Marketing - services" />

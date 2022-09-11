@@ -11,7 +11,7 @@ const NoPage = () => {
     const router = useRouter();
 
     return (
-        <div>
+        <div className='content'>
             <Head>
                 <title>404 - No page found - DubiSign</title>
                 <meta name="description" content="DubiSign - 404 - No page found" />

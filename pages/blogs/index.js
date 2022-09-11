@@ -9,7 +9,7 @@ import Head from 'next/head'
 
 const Blogs = () => {
   return (
-    <div>
+    <div className='content'>
 
       <Head>
         <title>DubiSign - Blogs</title>
