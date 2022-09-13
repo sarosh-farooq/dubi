@@ -6,8 +6,8 @@ import styles from '../styles/About.module.css'
 // import Divider from '../components/About/Divider'
 import Team from '../components/About/Team/Team'
 import Head from 'next/head'
+import ScrollAnimation from 'react-animate-on-scroll';
 
-// import dynamic from "next/dynamic"
 
 
 const About = () => {
@@ -28,7 +28,7 @@ const About = () => {
 
                         <Grid container spacing={5}>
                             <Grid item xs={5}>
-
+                                
                                 <Box className={styles.detail}>
                                     <Typography variant="h2" component='h1' >Who we are</Typography>
                                     <Typography variant="subtitle2" sx={{ mb: 2 }} component='p'>
@@ -44,6 +44,7 @@ const About = () => {
                             </Grid>
                             <Grid item xs={7}>
 
+
                                 {/* <Box className={styles.image}> */}
                                 <Image
                                     src='/about/museum_of_the_future.png'
@@ -52,6 +53,7 @@ const About = () => {
                                     alt="museum_of_the_future"
                                 />
                                 {/* </Box> */}
+
                             </Grid>
                         </Grid>
 
@@ -79,20 +81,22 @@ const About = () => {
                                     {/* </Box> */}
                                 </Grid>
                                 <Grid item xs={7.8}>
-                                    <Box className={styles.detail}>
-                                        <Typography variant="subtitle2" component='p'>
-                                            We promise to deliver great results for our customers because we know that&#39;s what keeps them coming back to us. That&#39;s why at Dubisign,
-                                            the focus is always on your needs and we our absolute best to satisfy your needs.
-                                        </Typography>
-                                        <Typography variant="subtitle2" component='p' sx={{ my: 6 }}>
-                                            <em>
-                                                “Dedicated to creating the best software solutions to our clients”
-                                            </em>
-                                        </Typography>
-                                        <Typography variant="subtitle2" component='p'>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu a sit suspendisse et nibh elit nisi, dui erat. Ac nec in sed risus ultrices lorem fringilla massa maecenas. Tincidunt massa nunc scelerisque eu vestibulum quis enim. Nunc, leo aenean ut turpis proin porttitor.
-                                        </Typography>
-                                    </Box>
+                                    <ScrollAnimation animateIn={styles.slideInRight}>
+                                        <Box className={styles.detail}>
+                                            <Typography variant="subtitle2" component='p'>
+                                                We promise to deliver great results for our customers because we know that&#39;s what keeps them coming back to us. That&#39;s why at Dubisign,
+                                                the focus is always on your needs and we our absolute best to satisfy your needs.
+                                            </Typography>
+                                            <Typography variant="subtitle2" component='p' sx={{ my: 6 }}>
+                                                <em>
+                                                    “Dedicated to creating the best software solutions to our clients”
+                                                </em>
+                                            </Typography>
+                                            <Typography variant="subtitle2" component='p'>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu a sit suspendisse et nibh elit nisi, dui erat. Ac nec in sed risus ultrices lorem fringilla massa maecenas. Tincidunt massa nunc scelerisque eu vestibulum quis enim. Nunc, leo aenean ut turpis proin porttitor.
+                                            </Typography>
+                                        </Box>
+                                    </ScrollAnimation>
 
                                 </Grid>
 
