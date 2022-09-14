@@ -30,7 +30,7 @@ const navItems = ['About', 'Blogs', 'Services', 'Projects', 'Contact'];
 function DrawerAppBar(props) {
 
     const router = useRouter()
-    const { window, setSelectedTheme } = props;
+    const { window, setSelectedTheme  } = props;
     const [mobileOpen, setMobileOpen] = React.useState(false);
 
     const handleDrawerToggle = () => {

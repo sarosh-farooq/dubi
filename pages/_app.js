@@ -109,7 +109,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={activeTheme} >
       <CssBaseline />
-      <Header setSelectedTheme={setSelectedTheme} />
+      <Header />
 
       <Component setSelectedTheme={setSelectedTheme} {...pageProps} />
 

@@ -25,7 +25,7 @@ function Projects() {
     return (
         <div className='content'>
 
-            <Container maxWidth="xl" sx={{ mt: 27, mb: 6 }} >
+            <Container maxWidth="xl" sx={{ mt: { md: 27, xs: 18 }, mb: { md: 6, xs: 6 } }} >
 
                 <Head>
                     <title>Projects - DubiSign</title>
@@ -41,7 +41,7 @@ function Projects() {
                     <Tab />
                 </Box>
                 <Box sx={{ width: '100%', display: "flex", alignItems: 'center', justifyContent: "center" }}>
-                    <Grid className={styles.container} container spacing={8} sx={{ mt: 1, width: "80%" }}>
+                    <Grid className={styles.container} container spacing={8} sx={{ mt: 1, width: { md: "80%", sm: "100%" } }}>
 
                         {
                             projects.map(item =>

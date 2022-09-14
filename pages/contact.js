@@ -15,9 +15,9 @@ const Contact = () => {
         <title>Contact Support Team - DubiSign</title>
         <meta name="description" content="DubiSign - Contact Support Team " />
       </Head>
-      <Container maxWidth="xl" sx={{ mt: 27, mb: 6 }} >
+      <Container maxWidth="xl" sx={{ mt: { md: 27, xs: 16 }, mb: { md: 6, xs: 6 } }} >
         <Grid container spacing={4}>
-          <Grid item xs={7}>
+          <Grid item xs={12} md={7}>
             <Typography variant="h3" component="h1" >How to find us</Typography>
             <Box className={styles.secondItem1}>
               <Box className={styles.contactBox}>
@@ -43,7 +43,7 @@ const Contact = () => {
             </Box>
           </Grid>
 
-          <Grid item xs={5} className={styles.contactForm}>
+          <Grid item xs={12} md={5} className={styles.contactForm}>
             <Typography variant="h3" component="h2" >Let&#39;s connect</Typography>
             <Typography variant="subtitle1" component="p" >We&#39;d love to help your business. Simply reach out to us.</Typography>
             <Box className={styles.secondItem2}>

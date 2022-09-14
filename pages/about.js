@@ -22,12 +22,12 @@ const About = () => {
                 <meta name="description" content="DubiSign - About " />
             </Head>
             <div>
-                <Container maxWidth="xl" sx={{ mt: 30, mb: 20 }} >
+                <Container maxWidth="xl" sx={{ mt: { md: 30, xs: 16 }, mb: { md: 20, xs: 16 } }} >
 
                     <Box className={styles.about1}>
 
                         <Grid container spacing={5}>
-                            <Grid item xs={5}>
+                            <Grid item sx={12} md={5}>
 
                                 <Box className={styles.detail}>
                                     <Typography variant="h2" component='h1' >Who we are</Typography>
@@ -37,12 +37,12 @@ const About = () => {
                                     <Typography variant="subtitle2" sx={{ mb: 2 }} component='p'>
                                         Choose what matters to your business and your customers. Bring out your business to the whole world.
                                     </Typography>
-                                    <Typography variant="subtitle2" sx={{ mb: 2 }} component='p'>
+                                    <Typography variant="subtitle2" sx={{ mb: 2, display: {md: "block", xs: "none"} }} component='p'>
                                         We&#39;re here to make your life easier - talk to us about how we can help. Get in touch so that we can start elevating you to where you deserve to be.
                                     </Typography>
                                 </Box>
                             </Grid>
-                            <Grid item xs={7}>
+                            <Grid sx={12} item md={7}>
 
                                 {/* <Box className={styles.image}> */}
                                 <Image
@@ -52,6 +52,13 @@ const About = () => {
                                     alt="museum_of_the_future"
                                 />
                                 {/* </Box> */}
+                            </Grid>
+                            <Grid item xs={12} md={0} sx={{ display: {md: "none", xs: "block"} }}>
+                                <Box className={styles.detail}>
+                                    <Typography variant="subtitle2" sx={{ mb: 2 }} component='p'>
+                                        We&#39;re here to make your life easier - talk to us about how we can help. Get in touch so that we can start elevating you to where you deserve to be.
+                                    </Typography>
+                                </Box>
                             </Grid>
                         </Grid>
 
@@ -63,12 +70,12 @@ const About = () => {
                     </Divider>
                 </Box>
                 <Box className={styles.container}>
-                    <Container maxWidth="xl" sx={{ pt: 16, pb: 25 }} >
+                    <Container maxWidth="xl" sx={{ pt: { md: 16, xs: 8 }, pb: { md: 25, xs: 8 } }} >
                         <Box className={styles.about2}>
 
                             <Grid container spacing={5} alignItems="center" justifyContent="center">
 
-                                <Grid item xs={4.2}>
+                                <Grid item sx={12} md={4.2}>
                                     {/* <Box className={styles.image}> */}
                                     <Image
                                         src='/about/vision.png'
@@ -78,7 +85,7 @@ const About = () => {
                                     />
                                     {/* </Box> */}
                                 </Grid>
-                                <Grid item xs={7.8}>
+                                <Grid item sx={12} md={7.8}>
                                     <Box className={styles.detail}>
                                         <Typography variant="subtitle2" component='p'>
                                             We promise to deliver great results for our customers because we know that&#39;s what keeps them coming back to us. That&#39;s why at Dubisign,
@@ -89,7 +96,7 @@ const About = () => {
                                                 “Dedicated to creating the best software solutions to our clients”
                                             </em>
                                         </Typography>
-                                        <Typography variant="subtitle2" component='p'>
+                                        <Typography variant="subtitle2" component='p' sx={{ display: {md: "block", xs: "none"} }}>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu a sit suspendisse et nibh elit nisi, dui erat. Ac nec in sed risus ultrices lorem fringilla massa maecenas. Tincidunt massa nunc scelerisque eu vestibulum quis enim. Nunc, leo aenean ut turpis proin porttitor.
                                         </Typography>
                                     </Box>
@@ -108,7 +115,7 @@ const About = () => {
                 </Box>
                 <Container maxWidth="xl" sx={{ mt: 16, mb: 3 }} >
                     <Box className={styles.team} >
-                        <Typography variant="subtitle2" component='p' className={styles.p}>
+                        <Typography variant="subtitle2" sx={{ display: { xs: "none", md: "block" } }} component='p' className={styles.p}>
                             This team is what makes our service from ordinary to extraordinary solutions through our culture towards ideate, innovate and deliver world-class service excellence.
                         </Typography>
                         <Team />
