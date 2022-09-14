@@ -24,13 +24,13 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 
-const drawerWidth = 260;
+const drawerWidth = 300;
 const navItems = ['About', 'Blogs', 'Services', 'Projects', 'Contact'];
 
 function DrawerAppBar(props) {
 
     const router = useRouter()
-    const { window, setSelectedTheme  } = props;
+    const { window, setSelectedTheme } = props;
     const [mobileOpen, setMobileOpen] = React.useState(false);
 
     const handleDrawerToggle = () => {
@@ -60,7 +60,7 @@ function DrawerAppBar(props) {
                 <List>
                     {navItems.map((item) => (
                         <ListItem key={item} disablePadding className={styles.li}>
-                            <ListItemButton onClick={() => router.push(`/${item.toLocaleLowerCase()}`)}  sx={{ textAlign: 'center', px: 0 }}>
+                            <ListItemButton onClick={() => router.push(`/${item.toLocaleLowerCase()}`)} sx={{ textAlign: 'center', px: 0 }}>
                                 <ListItemText primary={item} className={styles.listItem} />
                             </ListItemButton>
                         </ListItem>
@@ -86,21 +86,23 @@ function DrawerAppBar(props) {
                     </Box>
                 </Box>
                 <Divider sx={{ my: 2 }} />
-                <Box className={styles.linkSection}>
-                    <a href=''>
-                        <FacebookIcon color='primary' className={styles.link} />
-                    </a>
-                    <a href=''>
-                        <InstagramIcon color='primary' className={styles.link} />
-                    </a>
-                    <a href=''>
-                        <LinkedInIcon color='primary' className={styles.link} />
-                    </a>
-                    <a href=''>
-                        <WhatsAppIcon color='primary' className={styles.link} />
-                    </a>
+                <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
+                    <Box className={styles.linkSection}>
+                        <a href=''>
+                            <FacebookIcon color='primary' className={styles.link} />
+                        </a>
+                        <a href=''>
+                            <InstagramIcon color='primary' className={styles.link} />
+                        </a>
+                        <a href=''>
+                            <LinkedInIcon color='primary' className={styles.link} />
+                        </a>
+                        <a href=''>
+                            <WhatsAppIcon color='primary' className={styles.link} />
+                        </a>
+                    </Box>
+                    <Typography variant="subtitle1" className={styles.subtitle}>Dubisign. All Rights Reserved, 2021.</Typography>
                 </Box>
-                <Typography variant="subtitle1" className={styles.subtitle}>Dubisign. All Rights Reserved, 2021.</Typography>
             </Box>
         </Box>
     );
@@ -110,7 +112,7 @@ function DrawerAppBar(props) {
     return (
         <Box sx={{ display: 'flex' }}>
             <UIAppBar component="nav" className={styles.navbar} >
-                <Container maxWidth="xl" sx={{ p: {md: '30px 0px 10px 0px !important', xs: "5px 0px 5px 0px !important"} }}>
+                <Container maxWidth="xl" sx={{ p: { md: '30px 0px 10px 0px !important', xs: "5px 0px 5px 0px !important" } }}>
                     <Toolbar>
                         <Box sx={{ flexGrow: 1, display: { xs: 'block', md: 'none' } }}>
 
@@ -120,10 +122,10 @@ function DrawerAppBar(props) {
                                 onClick={handleDrawerToggle}
                                 color="primary"
                             >
-                                <MenuIcon fontSize="medium" sx={{fontSize: "30px"}} />
+                                <MenuIcon fontSize="medium" sx={{ fontSize: "30px" }} />
                             </IconButton>
                         </Box>
-                        <Box sx={{ flexGrow: 1, p: {md: '10px 10px 10px 0px !important', xs: "5px 0px 0px 0px !important"} }} onClick={() => router.push('/')}>
+                        <Box sx={{ flexGrow: 1, p: { md: '10px 10px 10px 0px !important', xs: "5px 0px 0px 0px !important" } }} onClick={() => router.push('/')}>
                             <Image
                                 src='/logo.png'
                                 alt='logo'

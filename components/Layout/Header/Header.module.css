@@ -30,7 +30,7 @@
 
 .li {
     border-bottom: 1px solid var(--primary);
-    width: 90%;
+    width: 200px;
     margin-bottom: 10px;
 }
 
