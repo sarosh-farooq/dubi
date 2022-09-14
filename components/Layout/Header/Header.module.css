@@ -1,8 +1,8 @@
-.navbar {
+/* .navbar {
     background-color: transparent !important;
     box-shadow: none !important;
     background-image: none !important
-}
+} */
 
 .topBarMenu {
     /* display: flex; */
@@ -17,4 +17,71 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
+}
+
+
+
+.listItem {
+    font-family: Kumbh Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.li {
+    border-bottom: 1px solid var(--primary);
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+
+.flexCenter {
+    display: flex;
+    gap: 10px;
+}
+
+
+.linkSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.link {
+    font-size: 35px !important;
+}
+
+
+.subtitle {
+    color: rgba(124, 123, 123, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #7C7B7B;
+}
+
+@media screen and (min-width: 900px) {
+    .navbar {
+        /* background-color: transparent !important; */
+        box-shadow: none !important;
+        /* background-image: none !important */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .subtitle {
+        margin-top: 10px;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
 }

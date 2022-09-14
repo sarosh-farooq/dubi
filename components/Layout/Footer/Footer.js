@@ -23,7 +23,7 @@ const Footer = ({ setSelectedTheme }) => {
 
     return (
 
-        <Container maxWidth="xl" className={styles.container}>
+        <Container maxWidth="xl" className={styles.container} >
             <Divider />
             <Box className={styles.footer}>
                 <Box className={styles.linkSection}>
@@ -42,14 +42,14 @@ const Footer = ({ setSelectedTheme }) => {
 
                 </Box>
 
-                <Box className={styles.rightSection}>
+                <Box className={styles.rightSection} sx={{ display: { xs: "none !important", md: "flex" } }}>
                     <Box>
                         <FormControlLabel sx={{ mt: .2 }}
                             control={<MaterialUISwitch checked={checked}
                                 onChange={handleChange} />}
                         />
                     </Box>
-                    <Box className={styles.flexCenter}>
+                    <Box  className={styles.flexCenter} >
                         <Image
                             src='/flag.png'
                             alt='logo'
@@ -62,6 +62,7 @@ const Footer = ({ setSelectedTheme }) => {
                         <Typography variant="subtitle1" className={styles.subtitle}>Dubisign. All Rights Reserved, 2021.</Typography>
                     </Box>
                 </Box>
+                <Typography variant="subtitle1" className={styles.subtitle}>Dubisign. All Rights Reserved, 2021.</Typography>
             </Box>
 
         </Container>

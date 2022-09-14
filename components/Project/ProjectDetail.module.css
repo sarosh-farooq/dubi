@@ -14,7 +14,6 @@
     line-height: 49px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .project h6 {
@@ -24,7 +23,6 @@
     line-height: 33px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .intro {
@@ -34,7 +32,6 @@
     background-size: auto;
     background-position: center;
     background-size: 1200px auto;
-
 }
 
 
@@ -109,7 +106,6 @@
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 
@@ -294,7 +290,6 @@
     line-height: 51px;
     letter-spacing: 0.3em;
     text-align: right;
-
 }
 
 .timeline {
@@ -420,4 +415,231 @@
     left: 20%;
     position: relative;
     border: 1px solid transparent;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .introDetail {
+        width: 100%;
+        padding: 50px 20px 50px 30px;
+    }
+
+    .introDetail .image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .project h5 {
+        font-family: Roboto;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .project h6 {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .h2 {
+        font-family: Kumbh Sans;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .h3 {
+        font-family: Kumbh Sans;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        /* text-align: center; */
+    }
+
+    .p {
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .description, .overview, .approach, .result {
+        margin: 20px 0px;
+        padding: 0px 20px;
+    }
+
+
+    .problems {
+        margin: 20px 0px;
+    }
+
+    .problems .p span {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .problems .icon {
+        font-size: 8px;
+    }
+
+    .graphArea {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 15px;
+        position: relative;
+        font-family: Lexend;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .timeline .content {
+        font-family: Lexend;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .timelineBox {
+        width: 100%;
+    }
+
+    .graphBox {
+        width: 100%;
+    }
+
+    .graph .bar1 {
+        padding: 2px 0px;
+    }
+
+    .graph .bar2 {
+        padding: 2px 0px;
+    }
+
+    .graph .bar3 {
+        padding: 2px 0px;
+    }
+
+    .graph .bar4 {
+        padding: 2px 0px;
+    }
+
+    .result1 {
+        font-family: Lexend;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 2px 0px;
+    }
+
+    .result2 {
+        font-family: Lexend;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 2px 0px;
+    }
+
+    .result3 {
+        font-family: Lexend;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 2px 0px;
+    }
+
+  
+
+    .graphs{
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .graphs .image1 {
+        width: 150px;
+        height: 150px;
+    }
+    .graphs .image2 {
+        width: 200px;
+        height: 160px;
+    }
+
+    .companyDetail {
+        margin: 20px 0px;
+        padding: 20px 20px;
+        gap: 20px;
+    }
+
+    .companyDetail .box {}
+
+    .companyDetail .image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .companyDetail h3 {
+        font-family: Kumbh Sans;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .companyDetail h4 {
+        font-family: Kumbh Sans;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .companyDetail h5 {
+        font-family: Roboto;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+
 }

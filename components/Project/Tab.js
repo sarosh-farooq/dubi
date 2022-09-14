@@ -63,25 +63,24 @@ export default function FullWidthTabs({ setTabIndex }) {
     };
 
 
+    {/* <AppBar> */ }
     return (
-        <Box sx={{ bgcolor: 'background.paper', position: 'relative' }}>
-            {/* <AppBar> */}
-            <StyledTabs
-                value={value}
-                onChange={handleChange}
-                indicatorColor="primary"
-                variant="scrollable"
-                scrollButtons="auto"
-            >
-                <StyledTab label="All" />
-                <StyledTab label="Digital Marketing" />
-                <StyledTab label="Creative Design" />
-                <StyledTab label="Deployment" />
-                <StyledTab label="Web Design" />
-                <StyledTab label="App Dev" />
-            </StyledTabs>
 
-        </Box>
+        <StyledTabs
+            value={value}
+            onChange={handleChange}
+            indicatorColor="primary"
+            variant="scrollable"
+            scrollButtons="auto"
+        >
+            <StyledTab label="All" />
+            <StyledTab label="Digital Marketing" />
+            <StyledTab label="Creative Design" />
+            <StyledTab label="Deployment" />
+            <StyledTab label="Web Design" />
+            <StyledTab label="App Dev" />
+        </StyledTabs>
+
     );
 }
 
@@ -111,6 +110,8 @@ const StyledTab = styled((props) => <Tab {...props} />)(
         textTransform: 'none',
         fontWeight: theme.typography.fontWeightRegular,
         fontSize: theme.typography.pxToRem(16),
-        font: "inter", fontWeight: 400, fontSize: "25px"
+        font: "inter",
+        fontWeight: 400,
+        fontSize: "25px"
     }),
 );

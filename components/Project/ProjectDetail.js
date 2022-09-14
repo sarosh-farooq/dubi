@@ -56,7 +56,7 @@ export default function AlertDialogSlide({ open, setOpen }) {
                     >
                         <Box className={styles.introDetail}>
 
-                            <Box >
+                            <Box className={styles.image}>
                                 <Image
                                     src="/projects/logo.png"
                                     width={250}
@@ -107,7 +107,7 @@ export default function AlertDialogSlide({ open, setOpen }) {
                     </Divider>
                     <Box className={styles.overview}>
                         <Box>
-                            <Typography variant="h4" component="h3">Timeline</Typography>
+                            <Typography className={styles.h3} variant="h4" component="h3" >Timeline</Typography>
                             <Box className={styles.timeline}>
                                 <Box className={styles.timelineBox}>
                                     <Box className={styles.months}>
@@ -145,8 +145,8 @@ export default function AlertDialogSlide({ open, setOpen }) {
                             </Box>
                         </Box>
                         <Box className={styles.problems}>
-                            <Typography variant="h4" component="h3">Problems</Typography>
-                            <List sx={{ ml: 5, my: 3 }}>
+                            <Typography className={styles.h3} variant="h4" component="h3">Problems</Typography>
+                            <List sx={{ ml: { md: 5, xs: 1 }, my: { md: 3, xs: 1 } }}>
                                 <ListItem sx={{ p: .5 }}>
                                     <ListItemIcon sx={{ minWidth: 30 }}>
                                         <CircleIcon className={styles.icon} color="primary" />
@@ -182,8 +182,8 @@ export default function AlertDialogSlide({ open, setOpen }) {
                             </List>
                         </Box>
                         <Box className={styles.problems}>
-                            <Typography variant="h4" component="h3">Solutions</Typography>
-                            <List sx={{ ml: 5, my: 3 }}>
+                            <Typography className={styles.h3} variant="h4" component="h3">Solutions</Typography>
+                            <List sx={{ ml: { md: 5, xs: 1 }, my: { md: 3, xs: 1 } }}>
                                 <ListItem sx={{ p: .5 }}>
                                     <ListItemIcon sx={{ minWidth: 30 }}>
                                         <CircleIcon className={styles.icon} color="primary" />
@@ -256,18 +256,22 @@ export default function AlertDialogSlide({ open, setOpen }) {
                             <Box className={styles.result3}>Result 3</Box>
                         </Box>
                         <Box className={styles.graphs}>
-                            <Image
-                                src="/projects/graph.png"
-                                width={370}
-                                height={370}
-                                alt="logo"
-                            />
-                            <Image
-                                src="/projects/line_graph.png"
-                                width={590}
-                                height={300}
-                                alt="logo"
-                            />
+                            <Box className={styles.image1}>
+                                <Image
+                                    src="/projects/graph.png"
+                                    width={370}
+                                    height={370}
+                                    alt="logo"
+                                />
+                            </Box>
+                            <Box className={styles.image2}>
+                                <Image
+                                    src="/projects/line_graph.png"
+                                    width={590}
+                                    height={300}
+                                    alt="logo"
+                                />
+                            </Box>
                         </Box>
                     </Box>
                     <Box className={styles.companyDetail}>
@@ -280,12 +284,14 @@ export default function AlertDialogSlide({ open, setOpen }) {
                             </Typography>
                         </Box>
                         <Box className={styles.box}>
-                            <Image
-                                src="/projects/logo.png"
-                                width={150}
-                                height={150}
-                                alt="logo"
-                            />
+                            <Box className={styles.image}>
+                                <Image
+                                    src="/projects/logo.png"
+                                    width={150}
+                                    height={150}
+                                    alt="logo"
+                                />
+                            </Box>
                             <Box>
                                 <Typography variant="h5" component="h5" sx={{ color: "white", letterSpacing: 1.5 }}>FIELD</Typography>
                             </Box>

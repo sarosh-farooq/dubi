@@ -12,14 +12,22 @@
     height: 600px;
 }
 
-.container {
-    height: 300px;
-}
-
-
 
 
 
 .center .teamDetail {
     background-color: aqua;
+}
+
+
+@media screen and (max-width: 900px) {
+    .slider {
+        height: 400px;
+        width: 78%;
+        margin-top: 0px;
+    }
+
+    .container {
+        height: 200px;
+    }
 }

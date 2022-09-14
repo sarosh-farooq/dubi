@@ -27,7 +27,26 @@ function Team() {
         speed: 500,
         slidesToShow: 3,
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    centerMode: false,
+                }
+            },
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                }
+            },
+            
+        ]
     };
 
     return (
@@ -47,7 +66,7 @@ function Team() {
                                         alt={item.name}
                                     />
                                 </Box>
-                                <Typography className="name" variant="h6" component='h4' sx={{mt:1}}>{item.name}</Typography>
+                                <Typography className="name" variant="h6" component='h4' sx={{ mt: 1 }}>{item.name}</Typography>
                                 <Typography className="title" variant="subtitle1" component='p'>{item.title}</Typography>
                             </Box>
                         </div>
