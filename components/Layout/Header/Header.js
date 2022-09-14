@@ -60,7 +60,7 @@ function DrawerAppBar(props) {
                 <List>
                     {navItems.map((item) => (
                         <ListItem key={item} disablePadding className={styles.li}>
-                            <ListItemButton sx={{ textAlign: 'center', px: 0 }}>
+                            <ListItemButton onClick={() => router.push(`/${item.toLocaleLowerCase()}`)}  sx={{ textAlign: 'center', px: 0 }}>
                                 <ListItemText primary={item} className={styles.listItem} />
                             </ListItemButton>
                         </ListItem>
@@ -110,7 +110,7 @@ function DrawerAppBar(props) {
     return (
         <Box sx={{ display: 'flex' }}>
             <UIAppBar component="nav" className={styles.navbar} >
-                <Container maxWidth="xl" sx={{ p: {md: '30px 0px 10px 0px !important', xs: "5px 0px 5px 0px"} }}>
+                <Container maxWidth="xl" sx={{ p: {md: '30px 0px 10px 0px !important', xs: "5px 0px 5px 0px !important"} }}>
                     <Toolbar>
                         <Box sx={{ flexGrow: 1, display: { xs: 'block', md: 'none' } }}>
 
@@ -120,7 +120,7 @@ function DrawerAppBar(props) {
                                 onClick={handleDrawerToggle}
                                 color="primary"
                             >
-                                <MenuIcon fontSize="medium" sx={{fontSize: "40px"}} />
+                                <MenuIcon fontSize="medium" sx={{fontSize: "30px"}} />
                             </IconButton>
                         </Box>
                         <Box sx={{ flexGrow: 1, p: "10px 10px 10px 0px" }} onClick={() => router.push('/')}>
