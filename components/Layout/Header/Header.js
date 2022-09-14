@@ -45,7 +45,7 @@ function DrawerAppBar(props) {
     };
 
     const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{ ml: 2, position: "relative", height: "100%" }}>
+        <Box onClick={handleDrawerToggle} sx={{ ml: 3, position: "relative", height: "100%" }}>
             <Box>
 
                 <Box sx={{ flexGrow: 1, p: "10px 10px 10px 0px", mb: 3 }} onClick={() => router.push('/')}>
@@ -67,7 +67,7 @@ function DrawerAppBar(props) {
                     ))}
                 </List>
             </Box>
-            <Box sx={{ p: 2, position: "absolute", bottom: 10, width: '100%' }}>
+            <Box sx={{ py: 2, pr: 4, position: "absolute", bottom: 10, width: '100%' }}>
                 <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                     <Box>
                         <FormControlLabel sx={{ mt: .2 }}
