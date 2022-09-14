@@ -11,7 +11,7 @@ p {
 :root {
   --primary: #A58C3B;
   --lightGrey: #7C7B7B;
- 
+
 }
 
 html, body {
@@ -91,3 +91,16 @@ body {
   clip-path: circle(50% at 50% 50%) !important;
 }
 
+
+
+@media screen and (max-width: 900px) {
+  .slick-center .image {
+    width: 172px !important;
+    height: 172px !important;
+  }
+
+  .image {
+    width: 172px !important;
+    height: 172px !important;
+  }
+}

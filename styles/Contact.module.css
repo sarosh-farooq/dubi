@@ -41,3 +41,39 @@
     letter-spacing: 0em;
     text-align: left;
 }
+
+
+@media screen and (max-width: 900px) {
+    .contactBox h1 {
+        font-family: Kumbh Sans;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .contactForm p {
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .contactBox h2 {
+        font-family: Kumbh Sans;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+
+    .contactForm{
+        margin-top: 30px;
+    }
+}

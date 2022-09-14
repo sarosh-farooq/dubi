@@ -182,7 +182,6 @@
     letter-spacing: 0em;
     text-align: center;
     margin: 10px 0px 50px 0px;
-
 }
 
 .grow h2 {
@@ -218,4 +217,78 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .about1 h1 {
+        font-family: Kumbh Sans;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .about1 p {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--lightGrey);
+    }
+
+    .about2 h1, .title2 h2  {
+        font-family: Kumbh Sans;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .about2 p {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--lightGrey);
+    }
+
+    .grow h3 {
+        font-family: Kumbh Sans;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .grow p {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 77%;
+
+    }
+
+    .container2 {
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .wrapper, .container {
+        background-image: none;
+        /* height: ; */
+    }
+
 }
