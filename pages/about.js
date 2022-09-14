@@ -91,7 +91,7 @@ const About = () => {
                                             We promise to deliver great results for our customers because we know that&#39;s what keeps them coming back to us. That&#39;s why at Dubisign,
                                             the focus is always on your needs and we our absolute best to satisfy your needs.
                                         </Typography>
-                                        <Typography variant="subtitle2" component='p' sx={{ my: 6 }}>
+                                        <Typography variant="subtitle2" component='p' sx={{ my: 6, fontWeight: "700 !important", textAlign: "center" }}>
                                             <em>
                                                 “Dedicated to creating the best software solutions to our clients”
                                             </em>

@@ -103,4 +103,24 @@ body {
     width: 172px !important;
     height: 172px !important;
   }
+
+  .name {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .title {
+    font-family: Inter;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
 }

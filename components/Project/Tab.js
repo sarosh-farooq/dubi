@@ -73,12 +73,12 @@ export default function FullWidthTabs({ setTabIndex }) {
             variant="scrollable"
             scrollButtons="auto"
         >
-            <StyledTab label="All" />
-            <StyledTab label="Digital Marketing" />
-            <StyledTab label="Creative Design" />
-            <StyledTab label="Deployment" />
-            <StyledTab label="Web Design" />
-            <StyledTab label="App Dev" />
+            <StyledTab sx={{fontSize: {md: "25px", xs: "17px"}}} label="All" />
+            <StyledTab sx={{fontSize: {md: "25px", xs: "17px"}}} label="Digital Marketing" />
+            <StyledTab sx={{fontSize: {md: "25px", xs: "17px"}}} label="Creative Design" />
+            <StyledTab sx={{fontSize: {md: "25px", xs: "17px"}}} label="Deployment" />
+            <StyledTab sx={{fontSize: {md: "25px", xs: "17px"}}} label="Web Design" />
+            <StyledTab sx={{fontSize: {md: "25px", xs: "17px"}}} label="App Dev" />
         </StyledTabs>
 
     );

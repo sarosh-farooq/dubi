@@ -123,7 +123,7 @@ function DrawerAppBar(props) {
                                 <MenuIcon fontSize="medium" sx={{fontSize: "30px"}} />
                             </IconButton>
                         </Box>
-                        <Box sx={{ flexGrow: 1, p: "10px 10px 10px 0px" }} onClick={() => router.push('/')}>
+                        <Box sx={{ flexGrow: 1, p: {md: '10px 10px 10px 0px !important', xs: "5px 0px 0px 0px !important"} }} onClick={() => router.push('/')}>
                             <Image
                                 src='/logo.png'
                                 alt='logo'
@@ -176,7 +176,7 @@ export default DrawerAppBar;
 const UIAppBar = styled(AppBar)(({ theme }) => ({
     backgroundColor: theme.palette.mode !== 'dark' ? '#fff' : '#161616',
     // boxShadow: "none",
-    // backgroundImage: "none"
+    backgroundImage: "none"
 }))
 
 
