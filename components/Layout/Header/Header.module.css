@@ -72,7 +72,7 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .subtitle {
         margin-top: 10px;
         font-family: Inter;

@@ -125,7 +125,7 @@ function DrawerAppBar(props) {
                                 <MenuIcon fontSize="medium" sx={{ fontSize: "30px" }} />
                             </IconButton>
                         </Box>
-                        <Box sx={{ flexGrow: 1, p: { md: '10px 10px 10px 0px !important', xs: "5px 0px 0px 0px !important" } }} onClick={() => router.push('/')}>
+                        <Box sx={{ flexGrow: 1, position: "relative", right: { xs: "15px", md: "0px" }, p: { md: '10px 10px 10px 0px !important', xs: "5px 0px 0px 0px !important" } }} onClick={() => router.push('/')}>
                             <Image
                                 src='/logo.png'
                                 alt='logo'
@@ -144,7 +144,7 @@ function DrawerAppBar(props) {
                 </Container>
             </UIAppBar>
             <Box component="nav">
-                <Drawer
+                <UIDrawer
                     container={container}
                     variant="temporary"
                     open={mobileOpen}
@@ -158,9 +158,9 @@ function DrawerAppBar(props) {
                     }}
                 >
                     {drawer}
-                </Drawer>
+                </UIDrawer>
             </Box>
-        </Box>
+        </Box >
     );
 }
 
@@ -176,6 +176,12 @@ export default DrawerAppBar;
 
 
 const UIAppBar = styled(AppBar)(({ theme }) => ({
+    backgroundColor: theme.palette.mode !== 'dark' ? '#fff' : '#161616',
+    // boxShadow: "none",
+    backgroundImage: "none"
+}))
+
+const UIDrawer = styled(Drawer)(({ theme }) => ({
     backgroundColor: theme.palette.mode !== 'dark' ? '#fff' : '#161616',
     // boxShadow: "none",
     backgroundImage: "none"

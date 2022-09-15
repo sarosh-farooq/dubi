@@ -93,7 +93,7 @@ body {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .slick-center .image {
     width: 172px !important;
     height: 172px !important;

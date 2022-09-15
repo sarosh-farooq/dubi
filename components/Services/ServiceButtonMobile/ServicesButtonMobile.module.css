@@ -1,0 +1,106 @@
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    padding: 20px 30px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 20px;
+}
+
+.ServiceButton h2 {
+    font-family: Kumbh Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+    gap: 20px;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--primary);
+    color: white;
+}
+
+
+.ServiceButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ServiceButton h2 {
+    position: relative;
+    top: -4px;
+
+}
+
+
+.listDetail span {
+    font-family: Kumbh Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.list .p {
+    color: var(--lightGrey);
+}
+
+.list .icon {
+    font-size: 10px;
+}
+
+.p {
+    color: var(--lightGrey);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

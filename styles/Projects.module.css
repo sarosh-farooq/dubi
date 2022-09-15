@@ -27,7 +27,7 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .container {
         background-image: none;
         padding: 30px;

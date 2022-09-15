@@ -15,7 +15,6 @@
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 20px;
-
 }
 
 .listDetail span {
@@ -62,4 +61,23 @@
     letter-spacing: 0em;
     text-align: left;
 
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        background-image: none;
+        min-height: auto;
+    }
+
+    .container h1 {
+        font-family: Kumbh Sans;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
 }

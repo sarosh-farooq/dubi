@@ -42,7 +42,7 @@ const Footer = ({ setSelectedTheme }) => {
 
                 </Box>
 
-                <Box className={styles.rightSection} sx={{ display: { xs: "none !important", md: "flex" } }}>
+                <Box className={styles.rightSection} sx={{ display: { xs: "none !important", md: "flex !important" } }}>
                     <Box>
                         <FormControlLabel sx={{ mt: .2 }}
                             control={<MaterialUISwitch checked={checked}
@@ -62,7 +62,7 @@ const Footer = ({ setSelectedTheme }) => {
                         <Typography variant="subtitle1" className={styles.subtitle}>Dubisign. All Rights Reserved, 2021.</Typography>
                     </Box>
                 </Box>
-                <Typography variant="subtitle1" className={styles.subtitle}>Dubisign. All Rights Reserved, 2021.</Typography>
+                <Typography sx={{ display: { xs: "block !important", md: "none !important" } }} variant="subtitle1" className={styles.subtitle}>Dubisign. All Rights Reserved, 2021.</Typography>
             </Box>
 
         </Container>
