@@ -94,7 +94,7 @@ const darkTheme = createTheme({
 function MyApp({ Component, pageProps }) {
 
   const [activeTheme, setActiveTheme] = useState(lightTheme);
-  const [selectedTheme, setSelectedTheme] = useState('light');
+  const [selectedTheme, setSelectedTheme] = useState('dark');
 
   const getActiveTheme = (themeMode) => {
     return themeMode === 'light' ? lightTheme : darkTheme;
