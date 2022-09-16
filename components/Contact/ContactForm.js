@@ -6,7 +6,7 @@ const ContactForm = () => {
     return (
         <div>
             <form>
-                <Grid container spacing={5}>
+                <Grid container spacing={{xs: 2, sm: 5}}>
                     <Grid item xs={12} >
                         <TextField
                             fullWidth={true}

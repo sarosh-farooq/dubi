@@ -471,7 +471,7 @@ export default function Home({ setSelectedTheme }) {
 
             <Container sx={{mb:5}}>
               <Typography variant="h3" component="h2" >Let&#39;s connect</Typography>
-              <Typography variant="subtitle1" component="p" >We&#39;d love to help your business. Simply reach out to us.</Typography>
+              <Typography variant="subtitle1" sx={{mb:2}} component="p" >We&#39;d love to help your business. Simply reach out to us.</Typography>
               <Box className={styles.secondItem2}>
                 <ContactForm />
               </Box>
