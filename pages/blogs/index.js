@@ -18,7 +18,7 @@ const Blogs = () => {
       </Head>
 
       <Container maxWidth="xl" sx={{ mt: { md: 27, xs: 16 }, mb: { md: 14, xs: 6 } }} >
-        <Box>
+        <Box sx={{ display: { xs: "block", md: "none" } }}>
           <Typography className={styles.h1} variant="h3" sx={{ mb: 4 }} component="h1">Blogs</Typography>
           <Grid container spacing={3}>
             <Grid item xs={12}>

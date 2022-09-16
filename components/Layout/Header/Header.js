@@ -145,6 +145,7 @@ function DrawerAppBar(props) {
             </UIAppBar>
             <Box component="nav">
                 <UIDrawer
+                    className={styles.navbar}
                     container={container}
                     variant="temporary"
                     open={mobileOpen}

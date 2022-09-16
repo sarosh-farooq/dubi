@@ -9,19 +9,20 @@ const Service = ({ image, alt, title, description }) => {
     return (
         <UIBox className={styles.service}>
 
-            <Image
-                src={image}
-                height={160}
-                width={160}
-                // layout="responsive"
-                alt={alt}
-            />
+            <Box className={styles.image}>
+                <Image
+                    src={image}
+                    height={160}
+                    width={160}
+                    alt={alt}
+                />
+            </Box>
 
             <Box className={styles.detail}>
                 <Typography variant="h6" component='h3' className={styles.h3}>
                     {title}
                 </Typography>
-                <Typography variant="subtitle1" component='p'>
+                <Typography variant="subtitle1" component='p' sx={{ display: { xs: "none", sm: "block" } }}>
                     {description}
                 </Typography>
 

@@ -41,7 +41,7 @@ const BlogsViewMobile
                             </Box>
 
                             <Box className={styles.button}>
-                                <Button endIcon={<RightIcon />} variant="contained" color="primary" aria-label="next" size="large"
+                                <Button endIcon={<RightIcon />} variant="contained" color="primary" aria-label="next"
                                     onClick={() => router.push('/blogs/blog-detail')}>
                                     Read More
                                 </Button>
