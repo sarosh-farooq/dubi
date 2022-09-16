@@ -308,7 +308,7 @@ export default function Home({ setSelectedTheme }) {
             <Container sx={{ width: "100%" }}>
               <Box className={`${styles.flexContainer1} ${styles.section1}`}>
 
-                <Button variant="contained" size='large' color="primary" sx={{ mt: 4, alignSelf: "center" }}>
+                <Button variant="contained"  color="primary" sx={{ mt: 4, alignSelf: "center" }}>
                   Grow Your Business
                 </Button>
 
@@ -351,7 +351,7 @@ export default function Home({ setSelectedTheme }) {
 
                   <Box className={styles.serviceButton}>
 
-                    <Button variant="contained" size='large' color="primary" sx={{ my: 2, mt:4 }}>
+                    <Button variant="contained"  color="primary" sx={{ my: 2, mt:4 }}>
                       View all services          </Button>
 
                   </Box>
@@ -371,7 +371,7 @@ export default function Home({ setSelectedTheme }) {
               </Box>
               <Box className={styles.serviceButton}>
 
-                <Button variant="contained" size='large' color="primary" sx={{ my: 2 }}>
+                <Button variant="contained"  color="primary" sx={{ my: 2 }}>
                   View all projects
                 </Button>
 
@@ -384,7 +384,7 @@ export default function Home({ setSelectedTheme }) {
 
             <Container sx={{ width: "100%" }}>
 
-              <Typography variant="h2" component="h2" sx={{ my: 2, ml: 2.5, mb: 3 }}>
+              <Typography variant="h2" component="h2" sx={{ my: 2, mb: 3 }}>
                 What our
                 clients say about us
               </Typography>
@@ -409,8 +409,8 @@ export default function Home({ setSelectedTheme }) {
                   <Box className={styles.imageBox}>
                     <Image
                       src="/porject1.png"
-                      width={120}
-                      height={120}
+                      width={100}
+                      height={100}
                       alt="project1"
                     />
                   </Box>
@@ -419,8 +419,8 @@ export default function Home({ setSelectedTheme }) {
                   <Box className={styles.imageBox}>
                     <Image
                       src="/porject2.png"
-                      width={100}
-                      height={100}
+                      width={80}
+                      height={80}
                       alt="project1"
                     />
                   </Box>
@@ -429,8 +429,8 @@ export default function Home({ setSelectedTheme }) {
                   <Box className={styles.imageBox}>
                     <Image
                       src="/porject3.png"
-                      width={100}
-                      height={100}
+                      width={80}
+                      height={80}
                       alt="project1"
                     />
                   </Box>
@@ -439,8 +439,8 @@ export default function Home({ setSelectedTheme }) {
                   <Box className={styles.imageBox}>
                     <Image
                       src="/porject4.png"
-                      width={120}
-                      height={120}
+                      width={80}
+                      height={80}
                       alt="project1"
                     />
                   </Box>
@@ -459,8 +459,8 @@ export default function Home({ setSelectedTheme }) {
                   <Box className={styles.imageBox}>
                     <Image
                       src="/porject6.png"
-                      width={120}
-                      height={120}
+                      width={80}
+                      height={80}
                       alt="project1"
                     />
                   </Box>
@@ -517,7 +517,7 @@ export default function Home({ setSelectedTheme }) {
                       Creative Results.
                     </Typography>
                     <Typography variant="h6" component='p' className={styles.p} sx={{ mt: 1 }}>More Than Just Your Usual Digital Marketing Agency & Developer.</Typography>
-                    <Button variant="contained" size='large' color="primary" sx={{ mt: 4 }}>
+                    <Button variant="contained" size="large" color="primary" sx={{ mt: 4 }}>
                       Grow Your Business
                     </Button>
 

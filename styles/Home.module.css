@@ -312,7 +312,7 @@
   .flexContainer1 {
     flex-direction: column-reverse;
     align-items: flex-start;
-    padding: 0px 24px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
 
   .section1 h1 {
@@ -430,21 +430,21 @@
 
   .image1 {
     top: 0%;
-    left: 5%;
+    left: 2%;
   }
 
   .image2 {
     top: 34%;
-    left: 11%;
+    left: 8%;
   }
 
   .image3 {
     top: 53%;
-    left: 41%;
+    left: 40%;
   }
 
   .image4 {
-    top: -10%;
+    top: -5%;
     left: 60%;
     right: 0px;
   }
